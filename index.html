@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>zomato assignment</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+      
+        
+        <div class="header">
+            <div class="img img-fluid">
+                <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" style="height: 500px; width: 100%;" alt="">
+            </div>
+           
+              <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" style="margin-left: 100px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right: 10px;" fill="#FFFFFF" width="10" height="10" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 gvsUip"><title>download-app</title><path d="M18.5793 9.18939H16.5865H16.3199C15.7307 9.18939 15.2529 9.6672 15.2529 10.2583V10.3742C15.2529 10.9659 15.7307 11.444 16.3207 11.444H18.3156H18.5793C19.1696 11.444 19.6488 10.9639 19.6488 10.3742L19.6477 10.2569C19.6488 9.6672 19.1696 9.18939 18.5793 9.18939Z"></path><path d="M18.5804 6.52262H18.1097V1.35122C18.1097 0.607964 17.5017 0 16.7582 0H7.84167C7.09841 0 6.49045 0.608249 6.49045 1.35122V5.06151C4.69196 6.07821 2.83696 7.14029 2.83296 7.14286C1.82597 7.5573 0.350586 8.89453 0.350586 12.0522C0.350586 12.3342 0.369139 12.5945 0.395113 12.846C0.40339 12.9197 0.412524 12.9904 0.422514 13.0615C0.448488 13.2462 0.481027 13.4229 0.519845 13.5907C0.533831 13.6506 0.544678 13.7131 0.559805 13.7705C0.612039 13.9646 0.67255 14.1467 0.740482 14.32C0.774733 14.4059 0.811839 14.4841 0.84923 14.5646C0.88919 14.6494 0.929436 14.7327 0.972535 14.8106C1.02249 14.9045 1.07244 14.995 1.12724 15.0809C1.14037 15.1009 1.15464 15.1192 1.16805 15.1394C2.46847 17.1052 4.8675 17.114 4.8675 17.114H6.49045V18.6494C6.49045 19.3918 7.09841 19.9997 7.84167 19.9997H16.7579C17.5014 19.9997 18.1094 19.3915 18.1094 18.6494V16.7767H18.3155V16.7755H18.5784C19.1695 16.7755 19.6487 16.2974 19.6476 15.7063L19.6487 15.5898C19.6476 14.9996 19.1695 14.5229 18.5792 14.5229H18.3155H16.5861H16.3195C15.7292 14.5229 15.2525 15.0007 15.2525 15.5907V15.7091C15.2525 16.2977 15.7304 16.7775 16.3203 16.7775H17.1692V17.5008H7.43036V7.79877C7.91959 7.48851 8.37256 7.18995 8.63088 6.98987C9.93957 5.97774 11.1818 5.17169 11.3499 4.4407C11.5688 3.49222 10.8407 2.69302 9.57765 3.34922C9.17976 3.55587 8.36315 4.00885 7.43036 4.53261V2.14129L17.1692 2.14271V6.52205H16.5861V6.52319H16.3209C15.7304 6.52319 15.2511 7.001 15.2511 7.59269V7.70858C15.2511 8.29999 15.7303 8.77665 16.3195 8.77665H16.5846H18.3141H18.5798C19.1695 8.77665 19.6476 8.29884 19.6476 7.70858V7.58955C19.6487 7.00186 19.1709 6.52262 18.5804 6.52262ZM12.2986 17.9752C12.6731 17.9752 12.9751 18.2774 12.9751 18.6511C12.9751 19.0255 12.6728 19.3267 12.2986 19.3267C11.9256 19.3267 11.6242 19.0247 11.6242 18.6511C11.6247 18.2786 11.927 17.9752 12.2986 17.9752ZM13.7266 1.30098H10.8735C10.7839 1.30098 10.7097 1.2282 10.7097 1.13829C10.7097 1.04695 10.7839 0.974169 10.8735 0.974169H13.7266C13.8163 0.974169 13.8893 1.04667 13.8893 1.13829C13.8893 1.22792 13.8163 1.30098 13.7266 1.30098Z"></path><path d="M18.5788 11.8561H18.3151H16.3193C15.7302 11.8561 15.251 12.3353 15.251 12.9253V13.0423C15.251 13.6329 15.7291 14.1107 16.3193 14.1107H16.5845H18.3139H18.5782C19.1693 14.1107 19.646 13.6329 19.6474 13.0423V12.9253C19.6472 12.3353 19.1705 11.8561 18.5788 11.8561Z"></path></svg>Get the App</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                
+                  <ul class="navbar-nav" style="margin-left: 600px;">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Investor Relations <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Add Restuarant</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Log in</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Sign Up</a>
+                    </li>
+                  </ul>
+                  </div>
+                
+              </nav>
+              </div> 
+              <div class= "logo">
+                <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" style="height: 50px; margin-top: 120px; margin-left: 550px;" alt="">
+                
+              </div>
+              <div class="para" style="margin-top: 200px;margin-left: 280px;">
+<p style="font-size: 40px;" class="text-light">Discover the best food & drinks in Chhindwara</p>
+              </div>
+              <div class="search" style="margin-top: 270px; margin-left: 300px;">
+                <div class="" style="margin-top: 10px; margin-left: 10px;">
+                    <i class="fa-solid fa-location-dot fa-lg" style="color: #d54e3f;"></i>
+                    <input type="text" placeholder=" Routha wada, Chhindwara" style="border: none; margin-left: 5px;">
+                    <i class="fa-solid fa-caret-down fa-lg" style="color: #575b66;"></i>
+                    <i class="fa-solid fa-magnifying-glass" style="color: #4b5363; margin-left: 20px;"></i>
+                    <input type="text" placeholder="Search for a Restuarant,Cuisine or a dish
+                    " style="width:500px; border: none;">
+                </div>
+
+                
+              </div>
+        </div>
+        <div class="container d-flex justify-content-around mt-4">
+            <div class="card me-3" style="width: 22rem;">
+              <a href="#" class="stretched-link"></a>
+
+                
+                <img class="card-img-top" style="height: 150px;" src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Order online</h5>
+                  <p class="card-text">Stay home and order to your doorstep</p>
+                  
+                </div>
+              </div>
+              <div class="card me-3" style="width: 22rem;">
+                <a href="#" class="stretched-link"></a>
+
+                
+                <img class="card-img-top" style="height: 150px;" src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Dining</h5>
+                  <p class="card-text">View the cities favourite dinning venus</p>
+                  
+                </div>
+              </div>
+              <div class="card me-3" style="width: 22rem;">
+                <a href="#" class="stretched-link"></a>
+
+                
+                <img class="card-img-top" style="height: 150px;" src="https://b.zmtcdn.com/data/o2_assets/371de657644f1b5818fcb5d83387c8c91722851940.png?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Live Events</h5>
+                  <p class="card-text">Discovers india's best events and Concerts</p>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="mt-5" style="margin-left: 140px;">
+            <h3>Collections</h3>
+            <p style="font-size: 20px; font-weight: unset;">Explore curated lists of top restaurants, cafes, pubs, and bars in Kolkata, based on trends</p>
+           
+        </div>
+        <div class="container d-flex justify-content-between">
+            
+            <div class="card me-2" style="width: 18rem;">
+                <a href="" class="stretched-link"></a>
+                <img class="card-img-top" style="height: 350px;" src="https://www.rappler.com/tachyon/r3-assets/612F469A6EA84F6BAE882D2B94A4B421/img/CA2BE6B47681405D93F82E460A05BCF7/gallery-by-chele11.jpg" alt="Card image cap">
+                <div class="card-img-overlay">
+                    
+                        <h5 class="card-title text-light" style="margin-top: 270px;">Top Trending Spots</h5>
+                        <p class="card-text text-light" style="margin-top: 5px; margin-left: 5px;">27 places</p>
+                         
+                    
+                  
+                  
+                </div>
+              </div>
+              
+              <div class="card me-2" style="width: 18rem;">
+                <a href="" class="stretched-link"></a>
+                <img class="card-img-top" style="height: 350px;" src="https://www.alloymarketing.co.uk/wp-content/uploads/2017/06/Shapur-branded-restaurant-front-e1506616204531.jpg" alt="Card image cap">
+                <div class="card-img-overlay">
+                    
+                        <h5 class="card-title text-light" style="margin-top: 270px;">Newely Opened Places</h5>
+                        <p class="card-text text-light" style="margin-top: 5px; margin-left: 5px;">8 places</p>
+                         
+                    
+                  
+                  
+                </div>
+              </div>      
+              <div class="card me-2" style="width: 18rem;">
+                <a href="" class="stretched-link"></a>
+                <img class="card-img-top" style="height: 350px;" src="https://img.freepik.com/premium-photo/freshly-cooked-pork-vegetable-lunch-bowl-generative-ai_188544-8515.jpg" alt="Card image cap">
+                <div class="card-img-overlay">
+                    
+                        <h5 class="card-title text-light" style="margin-top: 270px;">Best Korean restaurants</h5>
+                        <p class="card-text text-light" style="margin-top: 5px; margin-left: 5px;">10 places</p>
+                         
+                    
+                  
+                  
+                </div>
+              </div> 
+              <div class="card" style="width: 18rem;">
+                <a href="#" class="stretched-link"></a>
+
+                <img class="card-img-top" style="height: 350px;" src="https://www.mydomaine.com/thmb/6Q3V-vpP_-ePkWUkoO2PsMePjHQ=/800x0/filters:no_upscale():max_bytes(150000):strip_icc()/EastDusk-ByWarrenJagger-MagicHour-1ab256e92fc64c73871943ee126c8c96.jpg" alt="Card image cap">
+                <div class="card-img-overlay">
+                    
+                        <h5 class="card-title text-light" style="margin-top: 270px;">Best rooftop places</h5>
+                        <p class="card-text text-light" style="margin-top: 5px; margin-left: 5px;">22 places</p>
+                         
+                    
+                  
+                  
+                </div>
+              </div> 
+
+              
+                       
+        </div>
+        <div class="mt-5" style="margin-left: 200px;">
+          <h3 style="font-weight: unset; font-size: 35px;">Popular localities in and around Chhindwara</h3>
+         </div>
+         <div class="mt-5" style="margin-left: 200px;">
+          <div class="card border shadow" style="width: 25rem;">
+            
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight: unset;">Chhindwara Locality</h5>
+              <p class="card-text">192 places</p>
+              
+            </div>
+          </div>
+         </div>
+         <div class="main row " style="margin-top: 100px;">
+          <div class="col-md-6 mt-5">
+            <img src="https://b.zmtcdn.com/data/o2_assets/ce5bc038a8a2d4f8f24465c8826182af1726501431.png" style="height: 400px; width: 300px; margin-left: 300px;" alt="">
+          </div>
+         <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-12 mt-5">
+              <h2>Get the Zomato app</h2>
+            </div>
+            <div class="col-md-12">
+              <p>We will send you a link, open it on your phone to download </p>
+              <p>the app</p>
+            </div>
+            <div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input text-danger" type="radio" name="radioInlineExample" id="radioInline1" checked>
+                <label class="form-check-label" for="radioInline1">
+                  Email
+                </label>
+              </div>
+              
+              <div class="form-check form-check-inline" style="margin-left: 40px;">
+                <input class="form-check-input" type="radio" name="radioInlineExample" id="radioInline2">
+                <label class="form-check-label" for="radioInline2">
+                  phone
+                </label>
+              </div>
+              <div style="margin-top: 20px;">
+                <input type="text" class="form-control d-inline" placeholder="Email" style="width: 250px; height: 45px; margin-top: 5px;">
+                <button class="btn btn-danger" style="height: 40px; margin-top: 0%; margin-left: 5px;" >Share app link</button>
+              </div>
+              <div style="margin-top: 10px;">
+                <p style="font-weight: unset;">Download App from</p>
+              </div>
+            </div>
+            <div>
+              <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" style="height: 40px; width: 100px;" alt="">
+              <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" style="height: 40px; width: 100px; margin-left: 15px;" alt="">
+            </div>
+          </div>
+          
+         </div>
+  <div style="margin-left: 150px;" class="dropup">
+    <h3 style="font-size: 30px; font-weight: unset;" class="mt-5">Explore options near me </h3>
+    <input type="text" class="form-control mt-3 dropdown-toggle" placeholder="popular cuisines near me" data-bs-toggle="collapse" data-bs-target="#collapse" style="height: 50px; width: 70%; font-size: 20px;">
+   
+   <p class="collapse" id="collapse">Beverages food near meBiryani food near meBurger food near meChinese food near meCoffee food near meDesserts food near meIce Cream food near meItalian food near meMithai food near meMomos food near meMughlai food near meNorth Indian food near mePasta food near mePizza food near meRolls food near meSandwich food near meShake food near meSouth Indian food near meStreet food near meTea food near me</p>
+    <input type="text" class="form-control mt-3 dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#collapse" placeholder="popular Restuarant type near me" style="height: 50px; width: 70%; font-size: 20px;">
+    <p class="collapse" id="collapse">Bakeries near meBars near meBeverage Shops near meCafés near meCasual Dining near meDessert Parlors near meFine Dining near meFood Trucks near meKiosks near mePaan Shop near meQuick Bites near meSweet Shops near me</p>
+    <input type="text" class="form-control mt-3" placeholder="cities we deliver to" style="height: 50px; width: 70%; font-size: 20px;">
+  </div>
+  <div class="mt-5 d-flex">
+    <div style="margin-left: 150px;">
+    <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*" class="mt-3" alt="" style="height: 30px;">
+    </div>
+    <div class="dropdown" style="margin-left: 550px;">
+      <button type="submit" class="btn dropdown-toggle border border-2" data-bs-toggle="dropdown"><img src="https://th.bing.com/th/id/OIP.ePbD1GXKu5mkqSSUMO5ZigHaE7?w=700&h=466&rs=1&pid=ImgDetMain" style="height: 15px; width: 20px; margin-right: 10px;" alt="">india</button>
+      <ul class="dropdown-menu">
+          
+          <li><a href="" class="dropdown-item"><img src="https://th.bing.com/th/id/OIP.ePbD1GXKu5mkqSSUMO5ZigHaE7?w=700&h=466&rs=1&pid=ImgDetMain" style="height: 15px; width: 20px; margin-right: 10px;" alt=""></a></li>
+          <li><a href="" class="dropdown-item">India</a></li>
+          <li><hr class="dropdown-dividor"></li>
+          
+          <li><a href="" class="dropdown-item"><img src="https://th.bing.com/th/id/OIP.kA0e8B1740HZ8-eNHrgh4wHaEo?rs=1&pid=ImgDetMain" style="height: 15px; width: 20px; margin-right: 10px;" alt=""></a></a></li>
+          <li><a href="" class="dropdown-item">UAE</a></li>
+      </ul>
+  </div>
+  <div class="dropdown" style="margin-left: 50px;"
+  >
+    <button type="submit" class="btn dropdown-toggle border border-2" data-bs-toggle="dropdown"><i class="fa-solid fa-globe" style="margin-right: 10px;"></i>English</button>
+    <ul class="dropdown-menu">
+        
+        <li><a href="" class="dropdown-item">English</a></li>
+        <li><a href="" class="dropdown-item"></a>Türkçe</li>
+       <li><a href="" class="dropdown-item">हिंदी</a></li>
+        <li><a href="" class="dropdown-item">Português (BR)</a></li>
+        <li><a href="" class="dropdown-item"></a>Indenesion</li>
+        <li><a href="" class="dropdown-item"></a>Português (PT)</li>
+        <li><a href="" class="dropdown-item"></a>Español</li>
+        <li><a href="" class="dropdown-item"></a>Čeština</li>
+        <li><a href="" class="dropdown-item"></a>Slovenčina</li>
+        <li><a href="" class="dropdown-item"></a>polish</li>
+        <li><a href="" class="dropdown-item"></a>italian</li>
+    </ul>
+</div>
+  
+  </div>
+  <div class="row" style="margin-left: 140px;">
+    <div class="mt-3 row col-md-2">
+      <p style="font-size: 20px;">About Zomato</p>
+  <a href="" style="text-decoration: none; color: gray;">who we are</a>
+  <a href="" style="text-decoration: none; color: gray;">Blog</a>
+  <a href="" style="text-decoration: none; color: gray;">Work with us</a>
+  <a href="" style="text-decoration: none; color: gray;">Investor Relations</a>
+  <a href="" style="text-decoration: none; color: gray;">Report Fraud</a>
+  <a href="" style="text-decoration: none; color: gray;">Press kit</a>
+  <a href="" style="text-decoration: none;color: gray;">Contact Us</a>
+  
+  </div>
+  <div class="mt-3 row col-md-2">
+    <p style="font-size: 20px;">Zomoverse</p>
+  <a href="" style="text-decoration: none; color: gray;">who we are</a>
+  <a href="" style="text-decoration: none; color: gray;">Blink kit</a>
+  <a href="" style="text-decoration: none; color: gray;">Feeding india</a>
+  <a href="" style="text-decoration: none; color: gray;">Hyperpure</a>
+  <a href="" style="text-decoration: none; color: gray;">Zomato Live</a>
+  <a href="" style="text-decoration: none; color: gray;">Zomoland</a>
+  <a href="" style="text-decoration: none;color: gray;">Weather union</a>
+  
+  </div>
+  <div class="mt-3 row col-md-2">
+  <p style="font-size: 20px;">For Restaurants</p>
+  <a href="" style="text-decoration: none; color: gray; ">Partner with us</a>
+  <a href="" style="text-decoration: none; color: gray;">Apps for you</a>
+  
+  
+  </div>
+  <div class="mt-3 row col-md-2">
+  <p style="font-size: 20px;">Learn More</p>
+  <a href="" style="text-decoration: none; color: gray;">Privacy</a>
+  <a href="" style="text-decoration: none; color: gray;">Security</a>
+  <a href="" style="text-decoration: none; color: gray;">Terms</a>
+  
+  </div>
+  <div class="mt-3 row col-md-2">
+    <p style="font-size: 20px;">Social Skills</p>
+    <div class="d-inline">
+    <a href=""><i class="fa-brands fa-linkedin" style="color: #0d0d0d;"></i></a>
+    <a href=""><i class="fa-brands fa-instagram" style="color: #121212;"></i></a>
+    <a href="" ><i class="fa-brands fa-twitter" style="color: #121212;"></i></a>
+    <a href=""><i class="fa-brands fa-youtube" style="color: #0a0a0b;"></i></a>
+    <a href=""><i class="fa-brands fa-facebook" style="color: #070808;"></i></a>
+   
+    </div>
+    <div>
+    <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" style="height: 40px; width: 100px;" alt=""></div>
+    <div>
+    <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" style="height: 40px; width: 100px;"  alt="">
+    </div>
+  
+  </div>
+     
+   
+  
+  <div class="footer mt-5 " style="margin-left: 10px; margin-right: 50px; border-top: solid black 1px;">
+  <p style="font-size: smaller; margin-bottom: 0%;">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-</p>
+  <p style="font-size: smaller;">2024 © Zomato™ Ltd. All rights reserved.</p>
+  </div>
+         </div>
+        </div>
+  
+   
+  
+    
+    
+    
+           
+        <script src="./script.js" ></script> 
+    </body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    position: relative;
+}
+.img{
+    position: relative;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.heading{
+    position: absolute;
+    
+}
+.logo{
+    position: absolute;
+    top: 0;
+}
+.para{
+    position: absolute;
+    top: 0;
+}
+.search{
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    height: 45px;
+    width: 780px;
+    border-radius: 10px;
+}
+.main{
+    background-color: rgb(255, 251, 247)
+}
+.footer{
+    background-color: rgb(255, 251, 247)
+}
